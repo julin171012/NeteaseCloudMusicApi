@@ -1,5 +1,11 @@
 {
   "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://github.com/julin171012/NeteaseCloudMusicApi/:match*"
+    }
+  ]
   "builds": [
     {
       "src": "./index.js",
